@@ -1,0 +1,25 @@
+.res-cards{
+    background-color: rgb(236, 236, 236);
+    height: 381px;
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid #373737;
+    @media (max-width:375px) {
+        height: 484px;
+        width: 271px;
+    }
+    .img-P{
+        height:50%;
+        width:90%;
+        margin-top:5%;
+        margin-left: 5%;
+        
+        // overflow: contain;
+        position:relative;
+        border-radius: 10px 10px 10px 10px;
+    }
+    
+}

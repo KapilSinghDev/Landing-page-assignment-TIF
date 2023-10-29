@@ -1,0 +1,54 @@
+.abt-main{
+    height: 60vh;
+    width: 100%;
+    background: linear-gradient(90.07deg, rgba(30, 42, 93, 0.04) 30.91%, rgba(48, 62, 130, 0.04) 64.79%, rgba(60, 80, 157, 0.04) 91.94%);
+    display: flex;
+    flex-direction: row;
+    @media (max-width:375px) {
+        height: 70vh;
+    }
+    .abt-left{
+        @media (max-width:375px) {
+            display:none;
+        }
+        height: 60vh;
+        width: 50%;
+        .abt-img{
+            height: 60vh;
+            width: 55%;
+            padding-left: 20%;
+        }
+    }
+
+    .abt-txt{
+        @media (max-width:375px) {
+            height: 40vh;
+            width: 90%;
+            // background-color: pink;
+            margin-left: 5%;
+            text-align: center;
+        }
+        height: 40vh;
+        width: 35%;
+        .abt-heading{
+            margin-top: 15%;
+            color:#0E2368;
+        }
+        .abt-para{
+            text-align: left;
+            color: #444957;
+        }
+        .abt-btn{
+            margin-top: 10%;
+            height: 15%;
+            width: 20%;
+            background: #E23744;
+            border: 1px solid white;
+            color: white;
+            @media (max-width:375px) {
+                width: 40%;
+                border-radius: 10px 10px 10px 10px;
+            }
+        }
+    }
+}
