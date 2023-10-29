@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "tasktwo",
   "version": "0.1.0",
   "private": true,
@@ -10,7 +9,11 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "react-icons": "^4.11.0",
+    "react-slick": "^0.29.0",
+    "sass": "^1.69.5",
+    "slick-carousel": "^1.8.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,12 +38,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-=======
-  "dependencies": {
-    "react-icons": "^4.11.0",
-    "react-slick": "^0.29.0",
-    "sass": "^1.69.5",
-    "slick-carousel": "^1.8.1"
->>>>>>> 79c444121589e99d3d62b1c08b1ec8ee3c449d6b
   }
 }
